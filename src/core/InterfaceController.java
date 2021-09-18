@@ -14,4 +14,21 @@ public interface InterfaceController {
 
     String removeFather(int id);
 
+    String insertGrandFatherOne(int grandFatherOneId, String name , String cityName);
+
+    String insertGrandFatherTwo(int grandFatherOneId, String name , String cityName);
+
+    String removeGrandFatherOne(int id);
+
+    String removeGrandFatherTwo(int id);
+
+    String insertGrandMotherOne(int grandMotherOneId, String name , String cityName);
+
+    String insertGrandMotherTwo(int grandMotherOneId, String name , String cityName);
+
+    String removeGrandMotherOne(int id);
+
+    String removeGrandMotherTwo(int id);
+
+    
 }
