@@ -37,5 +37,17 @@ public class OutputMessages {
 
     public static final String EXISTING_FATHER = "Father exists";
 
+    public static final String GRAND_FATHER_ONE_ADDED = "Grand father one added with given name and city";
+
+    public static final String GRAND_FATHER_TWO_ADDED = "Grand father two added with given name and city";
+
+    public static final String GRAND_MOTHER_ONE_ADDED = "Grand mother one added with given name and city";
+
+    public static final String GRAND_MOTHER_TWO_ADDED = "Grand mother two added with given name and city";
+
+    public static final String GRAND_FATHER_REMOVED_MESSAGE = "Grand father removed successfully";
+
+    public static final String GRAND_MOTHER_REMOVED_MESSAGE = "Grand father removed successfully";
+
 
 }
