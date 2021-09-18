@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40aceca0-7da4-4990-8c9d-a49bb083bb78" name="Default Changelist" comment="" />
+    <list default="true" id="40aceca0-7da4-4990-8c9d-a49bb083bb78" name="Default Changelist" comment="Commands class added">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/OutputMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/OutputMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/InterfaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/InterfaceController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1yJ6ySBRJDGwcrtXWsDMo8yA9FK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +34,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="FamilyTreeJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,10 +63,66 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commands class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commands class added" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1631964792203">
+    <state x="485" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1631971888685">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="485" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1631964792203" />
+    <state x="485" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1631971888685" />
+    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1631968717375">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1631968717375" />
+    <state width="1316" height="242" key="GridCell.Tab.0.bottom" timestamp="1631973231632">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="242" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1631973231632" />
+    <state width="1316" height="242" key="GridCell.Tab.0.center" timestamp="1631973231632">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="242" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1631973231632" />
+    <state width="1316" height="242" key="GridCell.Tab.0.left" timestamp="1631973231632">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="242" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1631973231632" />
+    <state width="1316" height="242" key="GridCell.Tab.0.right" timestamp="1631973231632">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="242" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1631973231632" />
+    <state width="1316" height="242" key="GridCell.Tab.1.bottom" timestamp="1631973231632">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="242" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1631973231632" />
+    <state width="1316" height="242" key="GridCell.Tab.1.center" timestamp="1631973231632">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="242" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1631973231632" />
+    <state width="1316" height="242" key="GridCell.Tab.1.left" timestamp="1631973231632">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="242" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1631973231632" />
+    <state width="1316" height="242" key="GridCell.Tab.1.right" timestamp="1631973231632">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="242" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1631973231632" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/core/Controller.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/core/Engine.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

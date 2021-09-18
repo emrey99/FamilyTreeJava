@@ -20,7 +20,7 @@ public class Controller implements InterfaceController {
     private Map<Integer, Father> fathers;
     private Map<Integer, Mother> mothers;
 
-    public Controller(){
+    public Controller() {
 
         this.childs = new TreeMap<>();
         this.fathers = new TreeMap<>();
@@ -30,15 +30,15 @@ public class Controller implements InterfaceController {
 
     @Override
     public String insertChild(int personId, String name, String cityName) {
-        if(childs.containsKey(personId)){
+        if (childs.containsKey(personId)) {
             throw new IllegalArgumentException(EXISTING_CHILD);
         }
 
         Child child;
 
-        child = new Child(personId,name,cityName);
+        child = new Child(personId, name, cityName);
 
-        childs.put(personId,child);
+        childs.put(personId, child);
 
         return CHILD_ADDED_MESSAGE;
 
@@ -47,15 +47,15 @@ public class Controller implements InterfaceController {
     @Override
     public String insertMother(int personId, String name, String cityName) {
 
-        if(mothers.containsKey(personId)){
+        if (mothers.containsKey(personId)) {
             throw new IllegalArgumentException(EXISTING_MOTHER);
         }
 
         Mother mother;
 
-        mother = new Mother(personId,name,cityName);
+        mother = new Mother(personId, name, cityName);
 
-        mothers.put(personId,mother);
+        mothers.put(personId, mother);
 
         return MOTHER_ADDED_MESSAGE;
 
@@ -63,15 +63,15 @@ public class Controller implements InterfaceController {
 
     @Override
     public String insertFather(int personId, String name, String cityName) {
-        if(fathers.containsKey(personId)){
+        if (fathers.containsKey(personId)) {
             throw new IllegalArgumentException(EXISTING_FATHER);
         }
 
         Father father;
 
-        father = new Father(personId,name,cityName);
+        father = new Father(personId, name, cityName);
 
-        fathers.put(personId,father);
+        fathers.put(personId, father);
 
         return FATHER_ADDED_MESSAGE;
     }
@@ -104,29 +104,41 @@ public class Controller implements InterfaceController {
         return FATHER_REMOVED_MESSAGE;
     }
 
-    public void checkChildId(int id){
+    public void checkChildId(int id) {
 
-        if(!this.childs.containsKey(id)){
+        if (!this.childs.containsKey(id)) {
             throw new IllegalArgumentException(NOT_EXISTING_CHILD);
 
         }
 
     }
 
-    public void checkFatherId(int id){
+    public void checkFatherId(int id) {
 
-        if(!this.fathers.containsKey(id)){
+        if (!this.fathers.containsKey(id)) {
             throw new IllegalArgumentException(NOT_EXISTING_FATHER);
 
         }
 
     }
 
-    public void checkMotherId(int id){
+    public void checkMotherId(int id) {
 
-        if(!this.mothers.containsKey(id)){
+        if (!this.mothers.containsKey(id)) {
             throw new IllegalArgumentException(NOT_EXISTING_MOTHER);
         }
+    }
+
+    public Map<Integer, Child> getChilds() {
+        return childs;
+    }
+
+    public Map<Integer, Father> getFathers() {
+        return fathers;
+    }
+
+    public Map<Integer, Mother> getMothers() {
+        return mothers;
     }
 }
 
