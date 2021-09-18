@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40aceca0-7da4-4990-8c9d-a49bb083bb78" name="Default Changelist" comment="Commands class added">
-      <change beforePath="$PROJECT_DIR$/src/common/ExceptionMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/ExceptionMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/OutputMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/OutputMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Engine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/core/Engine.java</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

@@ -337,21 +337,26 @@ public class Controller implements InterfaceController {
     }
 
     public Map<Integer, GrandFatherOne> getGrandfatherone() {
+
         return grandfatherone;
     }
 
     public Map<Integer, GrandFatherTwo> getGrandfathertwo() {
+
         return grandfathertwo;
     }
 
     public Map<Integer, GrandMotherOne> getGrandmotherone() {
+
         return grandmotherone;
     }
 
     public Map<Integer, GrandMotherTwo> getGrandmothertwo() {
+
         return grandmothertwo;
     }
 }
+
 
 
 

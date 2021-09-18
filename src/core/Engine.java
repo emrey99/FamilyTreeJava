@@ -12,6 +12,7 @@ import static common.OutputMessages.*;
 public class Engine implements InterfaceEngine {
 
     @Override
+
     public void run() {
 
         while (true) {
@@ -22,7 +23,7 @@ public class Engine implements InterfaceEngine {
 
             String line = scanner.nextLine();
 
-            List<String> commands = Arrays.asList("insertChild", "insertFather", "insertMother");
+            List<String> commands = Arrays.asList("insertChild", "insertFather", "insertMother","removeFather","removeMother","removeChild");
 
             if (line.equals("help")) {
                 for (String command : commands) {
@@ -76,6 +77,7 @@ public class Engine implements InterfaceEngine {
                         break;
 
                     case "insertMother":
+
                         System.out.println(INSERT_MOTHER_REQUIREMENTS_MESSAGE);
 
                         line = scanner.nextLine();
@@ -94,7 +96,46 @@ public class Engine implements InterfaceEngine {
 
                         break;
 
+
+                    case "removeFather":
+
+                        System.out.println(FATHER_REMOVE_REQUIREMENTS);
+
+                        line = scanner.nextLine();
+
+                        String[] newLine = line.split("\\s");
+
+                        int idToRemove = Integer.parseInt(newLine[0]);
+
+                        controller.removeFather(idToRemove);
+
+                    case  "removeMother":
+
+                        System.out.println(MOTHER_REMOVE_REQUIREMENTS);
+
+                        line = scanner.nextLine();
+
+                        String[] line1 = line.split("\\s");
+
+                        int removeId = Integer.parseInt(line1[0]);
+
+                        controller.removeMother(removeId);
+
+                    case  "removeChild":
+
+                        System.out.println(CHILD_REMOVE_MESSAGE);
+
+                        line = scanner.nextLine();
+
+                        String[] childline = line.split("\\s");
+
+                        int childl = Integer.parseInt(childline[0]);
+
+                        controller.removeChild(childl);
+
+
                     default:
+
                         System.out.println(INVALID_INPUT);
 
                 }

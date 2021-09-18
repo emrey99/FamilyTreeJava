@@ -6,9 +6,7 @@ import java.util.List;
 
 public class Commands {
 
-
-    List<String> commands = Arrays.asList("insertChild","insertFather","insertMother");
-
+   List<String> commands = Arrays.asList("insertChild","insertFather","insertMother");
 
 }
 
