@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="40aceca0-7da4-4990-8c9d-a49bb083bb78" name="Default Changelist" comment="Commands class added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/InterfaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/InterfaceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +66,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commands class added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1631984444108">
+    <state x="485" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1632142338632">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="485" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1631984444108" />
+    <state x="485" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1632142338632" />
     <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1631968717375">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="334" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1631968717375" />
-    <state width="1316" height="242" key="GridCell.Tab.0.bottom" timestamp="1631973920225">
+    <state width="1316" height="162" key="GridCell.Tab.0.bottom" timestamp="1632140430217">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="242" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1631973920225" />
-    <state width="1316" height="242" key="GridCell.Tab.0.center" timestamp="1631973920225">
+    <state width="1316" height="162" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1632140430217" />
+    <state width="1316" height="162" key="GridCell.Tab.0.center" timestamp="1632140430217">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="242" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1631973920225" />
-    <state width="1316" height="242" key="GridCell.Tab.0.left" timestamp="1631973920225">
+    <state width="1316" height="162" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1632140430217" />
+    <state width="1316" height="162" key="GridCell.Tab.0.left" timestamp="1632140430217">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="242" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1631973920225" />
-    <state width="1316" height="242" key="GridCell.Tab.0.right" timestamp="1631973920225">
+    <state width="1316" height="162" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1632140430217" />
+    <state width="1316" height="162" key="GridCell.Tab.0.right" timestamp="1632140430217">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="242" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1631973920225" />
+    <state width="1316" height="162" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1632140430217" />
     <state width="1316" height="242" key="GridCell.Tab.1.bottom" timestamp="1631973920225">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -106,18 +106,26 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1316" height="242" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1631973920225" />
+    <state x="375" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1632139637927">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="375" y="186" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1632139637927" />
+    <state x="489" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632142204493">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="489" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1632142204493" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/core/Controller.java</url>
-          <line>35</line>
+          <line>33</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/core/Engine.java</url>
-          <line>38</line>
+          <line>40</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

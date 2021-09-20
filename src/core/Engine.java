@@ -1,9 +1,11 @@
 package core;
 
 import common.Commands;
+import members.Child;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 import static common.ExceptionMessages.*;
@@ -52,7 +54,10 @@ public class Engine implements InterfaceEngine {
 
                         controller.insertChild(personId, personName, cityName);
 
+                        System.out.println(controller.getChilds());
+
                         System.out.println(CHILD_ADDED_MESSAGE);
+
 
                         break;
 

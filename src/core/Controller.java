@@ -1,7 +1,5 @@
 package core;
 
-import common.ExceptionMessages;
-import core.InterfaceController;
 import members.*;
 
 import java.util.Map;
@@ -101,6 +99,7 @@ public class Controller implements InterfaceController {
         fathers.put(personId, father);
 
         return FATHER_ADDED_MESSAGE;
+
     }
 
 
@@ -226,12 +225,13 @@ public class Controller implements InterfaceController {
 
     @Override
     public String removeChild(int id) {
-
+// tva checkchildid trq vrushta true ili false spored men
         checkChildId(id);
 
         childs.remove(id);
 
         return CHILD_REMOVED_MESSAGE;
+
 
     }
 
@@ -243,6 +243,7 @@ public class Controller implements InterfaceController {
         mothers.remove(id);
 
         return MOTHER_REMOVED_MESSAGE;
+
     }
 
     @Override
@@ -253,6 +254,163 @@ public class Controller implements InterfaceController {
         fathers.remove(id);
 
         return FATHER_REMOVED_MESSAGE;
+
+    }
+
+    @Override
+    public String viewAllChilds(){
+
+        for (Map.Entry<Integer, Child> entry : getChilds().entrySet()) {
+
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
+        return "Those were all the childs";
+
+    }
+
+    @Override
+    public String viewAllFathers(){
+
+        for (Map.Entry<Integer, Father> entry : getFathers().entrySet()) {
+
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
+        return "Those were all the fathers";
+
+    }
+
+    @Override
+    public String viewAllMothers(){
+
+        for (Map.Entry<Integer, Mother> entry : getMothers().entrySet()) {
+
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
+        return "Those were all the mothers";
+
+    }
+
+    @Override
+    public String viewAllGrandFatherOnes(){
+
+        for (Map.Entry<Integer, GrandFatherOne> entry : getGrandfatherOne().entrySet()) {
+
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
+        return "Those were all grand father ones";
+
+    }
+
+    @Override
+    public String viewAllGrandFatherTwos(){
+
+        for (Map.Entry<Integer, GrandFatherTwo> entry : getGrandfatherTwo().entrySet()) {
+
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
+        return "Those were all grand father twos";
+
+    }
+
+    @Override
+    public String viewAllGrandMotherOnes(){
+
+        for (Map.Entry<Integer, GrandMotherOne> entry : getGrandmotherOne().entrySet()) {
+
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
+        return "Those were all grand mother ones";
+
+
+    }
+
+    @Override
+    public String viewAllGrandMotherTwos(){
+
+        for (Map.Entry<Integer, GrandMotherTwo> entry : getGrandmotherTwo().entrySet()) {
+
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
+        return "Those were all grand mother twos";
+
+    }
+
+
+    @Override
+    public String viewEntireFamilyById(int id){
+
+        for (Map.Entry<Integer, Child> entry : getChilds().entrySet()) {
+
+            if (entry.getKey().equals(id)){
+
+                System.out.println(entry.getValue().getPersonName());
+            }
+
+        }
+
+        for (Map.Entry<Integer, Father> entry : getFathers().entrySet()) {
+
+            if (entry.getKey().equals(id)){
+
+                System.out.println(entry.getValue().getPersonName());
+            }
+
+        }
+
+        for (Map.Entry<Integer, Mother> entry : getMothers().entrySet()) {
+
+            if (entry.getKey().equals(id)){
+
+                System.out.println(entry.getValue().getPersonName());
+            }
+
+        }
+
+        for (Map.Entry<Integer, GrandFatherOne> entry : getGrandfatherOne().entrySet()) {
+
+            if (entry.getKey().equals(id)){
+
+                System.out.println(entry.getValue().getPersonName());
+            }
+
+        }
+
+        for (Map.Entry<Integer, GrandFatherTwo> entry : getGrandfatherTwo().entrySet()) {
+
+            if (entry.getKey().equals(id)){
+
+                System.out.println(entry.getValue().getPersonName());
+            }
+
+        }
+
+        for (Map.Entry<Integer, GrandMotherOne> entry : getGrandmotherOne().entrySet()) {
+
+            if (entry.getKey().equals(id)){
+
+                System.out.println(entry.getValue().getPersonName());
+            }
+
+        }
+
+        for (Map.Entry<Integer, GrandMotherTwo> entry : getGrandmotherTwo().entrySet()) {
+
+            if (entry.getKey().equals(id)){
+
+                System.out.println(entry.getValue().getPersonName());
+            }
+
+        }
+
+        return "That was entire family";
+
     }
 
     public void checkChildId(int id) {
@@ -336,22 +494,22 @@ public class Controller implements InterfaceController {
         return mothers;
     }
 
-    public Map<Integer, GrandFatherOne> getGrandfatherone() {
+    public Map<Integer, GrandFatherOne> getGrandfatherOne() {
 
         return grandfatherone;
     }
 
-    public Map<Integer, GrandFatherTwo> getGrandfathertwo() {
+    public Map<Integer, GrandFatherTwo> getGrandfatherTwo() {
 
         return grandfathertwo;
     }
 
-    public Map<Integer, GrandMotherOne> getGrandmotherone() {
+    public Map<Integer, GrandMotherOne> getGrandmotherOne() {
 
         return grandmotherone;
     }
 
-    public Map<Integer, GrandMotherTwo> getGrandmothertwo() {
+    public Map<Integer, GrandMotherTwo> getGrandmotherTwo() {
 
         return grandmothertwo;
     }
