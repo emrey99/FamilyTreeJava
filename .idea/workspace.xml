@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="40aceca0-7da4-4990-8c9d-a49bb083bb78" name="Default Changelist" comment="Commands class added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/InterfaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/InterfaceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,22 +73,22 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="334" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1631968717375" />
-    <state width="1316" height="162" key="GridCell.Tab.0.bottom" timestamp="1632140430217">
+    <state width="1316" height="421" key="GridCell.Tab.0.bottom" timestamp="1632143020797">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="162" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1632140430217" />
-    <state width="1316" height="162" key="GridCell.Tab.0.center" timestamp="1632140430217">
+    <state width="1316" height="421" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1632143020797" />
+    <state width="1316" height="421" key="GridCell.Tab.0.center" timestamp="1632143020797">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="162" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1632140430217" />
-    <state width="1316" height="162" key="GridCell.Tab.0.left" timestamp="1632140430217">
+    <state width="1316" height="421" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1632143020797" />
+    <state width="1316" height="421" key="GridCell.Tab.0.left" timestamp="1632143020797">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="162" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1632140430217" />
-    <state width="1316" height="162" key="GridCell.Tab.0.right" timestamp="1632140430217">
+    <state width="1316" height="421" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1632143020797" />
+    <state width="1316" height="421" key="GridCell.Tab.0.right" timestamp="1632143020797">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1316" height="162" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1632140430217" />
+    <state width="1316" height="421" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1632143020797" />
     <state width="1316" height="242" key="GridCell.Tab.1.bottom" timestamp="1631973920225">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -125,7 +124,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/core/Engine.java</url>
-          <line>40</line>
+          <line>52</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
